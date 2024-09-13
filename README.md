@@ -6,6 +6,7 @@ This project is a machine learning pipeline for predicting Titanic survival usin
 
 - [Project Overview](#project-overview)
 - [Features](#features)
+- [Python Version](#python-version)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Running the Flask App](#running-the-flask-app)
@@ -27,6 +28,11 @@ The model pipeline is saved and can be re-used to make predictions, while LIME (
 - **Automated Model Selection**: TPOT selects the best pipeline for classifying survival outcomes.
 - **Flask Web Interface**: Users can input data for a Titanic passenger and receive predictions about their survival.
 - **Model Explainability**: LIME is integrated to provide explanations for individual predictions.
+
+## Python Version
+```
+3.10.12
+```
   
 ## Installation
 
@@ -51,16 +57,16 @@ The model pipeline is saved and can be re-used to make predictions, while LIME (
    app.py
     ```
 4. **Google cloud:**
--> Login to google cloud
--> Create a project
--> Install google clouf sdk
--> open cmd terminal
--> cd titanic-survival-prediction
--> gcloud --version
--> gcloud init
-    -> select: [1] Re-initialize this configuration [default] with new settings
--> docker push gcr.io/titanicsurvivalprediction/titanicsurvpred:latest
--> gcloud app deploy app.yaml --project titanicsurvivalprediction
+- Login to google cloud
+- Create a project
+- Install google clouf sdk
+- open cmd terminal
+- cd titanic-survival-prediction
+- gcloud --version
+- gcloud init
+    - select: [1] Re-initialize this configuration [default] with new settings
+- docker push gcr.io/titanicsurvivalprediction/titanicsurvpred:latest
+- gcloud app deploy app.yaml --project titanicsurvivalprediction
 
 
 ## File Structure
