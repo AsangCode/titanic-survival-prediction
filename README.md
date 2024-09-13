@@ -33,7 +33,7 @@ The model pipeline is saved and can be re-used to make predictions, while LIME (
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/titanic-survival-prediction.git
+   git clone https://github.com/AsangCode/titanic-survival-prediction
    ```
    ```
    cd titanic-survival-prediction
